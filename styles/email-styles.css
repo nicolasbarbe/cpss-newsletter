@@ -23,8 +23,7 @@ mj-section {
 }
 
 mj-body {
-    background-color: #eee;
-    width: 875px;
+    background-color: white;
 }
 
 mj-button {
@@ -57,8 +56,8 @@ mj-button {
 }
 
 .mj-content-section {
-    padding-left:70px;
-    padding-right:70px;
+    padding-left:20px;
+    padding-right:20px;
     background-color: white;
 }
 
@@ -71,5 +70,5 @@ mj-button {
 .mj-section-divider {
     margin-left: 200px;
     margin-right: 200px;
-    border-bottom: 1px solid rgb(100,100,100);
+    border-bottom: 1px solid rgb(120,130,140);
 }

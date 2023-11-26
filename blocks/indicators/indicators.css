@@ -1,0 +1,45 @@
+.mj-indicators {
+    padding-right:70px;
+    padding-left:70px;
+    width:610px;
+    padding-bottom:40px;
+}
+
+
+
+tr.indicator-name td {
+    font-weight: 300;
+    text-align: center;
+}
+
+tr.indicator-value td {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 300;
+    padding: 20px 0;
+}
+
+tr.indicator-value td sub{
+    vertical-align: baseline;
+    padding-left: 6px;
+    font-size: 30px;
+}
+
+
+tr.indicator-value td .trend-up {
+    vertical-align: super;
+    font-size: 18px;
+    padding-right: 10px;
+}
+
+tr.indicator-value td .trend-down {
+    font-size: 15px;
+    vertical-align: baseline;
+    padding-right: 10px;
+}
+
+tr.indicator-value td .trend-stable {
+    font-size: 15px;
+    vertical-align: top;
+    padding-right: 10px;
+}

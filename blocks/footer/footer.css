@@ -3,8 +3,9 @@
     position: relative;
     background-color: #F5F5F5;
     text-align: left;
-    font-size: 11px;
-    letter-spacing: 0px;
+    font-size: 10pt;
+    letter-spacing: 0.03em;
+    line-height: 26px;
     color: #959595;
 }
 
@@ -18,8 +19,11 @@
     padding-bottom: 40px;
 }
 
-.mj-footer-text div {
+.mj-footer-text  {
+    color: "#959595";
+    font-family:  'Helvetica Neue', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: left;
+    line-height: 17px;
     font-size: 11px;
     letter-spacing: 0px;
     color: #959595 !important;

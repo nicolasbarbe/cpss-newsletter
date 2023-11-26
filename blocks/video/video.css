@@ -1,9 +1,22 @@
 .mj-video {
-    width: 610px;
+    
+} 
+
+.video-container{
+    position: relative;
 }
 
-.video-control {
-    position: relative;
-    border: 1px solid black;
-    z-index: 1;
+img.video-controls{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Make image fill the container */
+    height: 100%; /* Make image fill the container */
 }
+
+img.video-preview{
+    
+    width: 100%; /* Make image fill the container */
+    height: 100%; /* Make image fill the container */
+}
+

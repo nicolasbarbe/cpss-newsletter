@@ -475,6 +475,23 @@ export function decorateTemplateAndTheme() {
   if (theme) addClasses(document.body, theme);
 }
 
+export function decorateList(element) {
+  element.querySelectorAll('ul').forEach((ul) => {
+    ul.align = 'left';
+    ul.type = 'disc';
+
+    const tr = document.createElement('tr');
+    const td = document.createElement('td');
+    tr.appendChild(td);
+    const div = document.createElement('div');
+    div.classList.add('forDumbOutlooks');
+    td.appendChild(div);
+
+    ul.parentElement.appendChild(tr);
+    div.appendChild(ul);
+  });
+}
+
 /**
  * decorates paragraphs containing a single link as buttons.
  * @param {Element} element container element

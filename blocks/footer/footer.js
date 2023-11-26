@@ -31,7 +31,7 @@ export default async function decorate(block) {
     <mj-section mj-class="mj-footer"  >
         <mj-column width="100%" align="left">
             <mj-image mj-class="mj-footer-logo" align="left" src="${logoUrl}" />
-            <mj-text  color="#959595" font-family="Helvetica Neue" font-size="11px">${footerBlock.body.outerHTML}</mj-text>
+            <mj-text  mj-class="mj-footer-text">${footerBlock.body.outerHTML}</mj-text>
         </mj-column>
         <mj-column width="0%">
             <mj-spacer mj-class="mj-footer-min-height" />

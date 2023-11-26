@@ -31,63 +31,53 @@ a:hover {
 
 p {
     text-align: left;
-    font-size: 15px;
+    font-size: 18pt;
     line-height: 26px;
+    letter-spacing: 0.03em;
     mso-line-height-rule:exactly;
-    font-weight: 350;    
+    font-weight: 300;    
     color: rgb(80, 80, 80);
     margin-top: 0px;
     margin-bottom: 20px;
 }
 
-h3 em {
-    font-size:18px;
-    font-style: unset;
-    color: rgb(90, 90, 90);
-    letter-spacing: 1px;
-}
 
 strong {
-    font-size: 15px;
     font-weight: bold;
     color: rgb(80, 80, 80);
 
 }
 
 h1 {
-    font-family: 'Helvetica Neue';
-    font-size: 32px;
+    font-size: 26pt;
     padding:0;
     margin:0;
     line-height: 40px;
 }
 
 h2 {
-    font-size: 36px;
+    font-size: 24pt;
     line-height: 1.25;
     margin-top:20px;
     margin-bottom:20px;
 }
 
 h3 {
-    font-size: 28px;
+    font-size: 22pt;
     line-height: 1.2;
     margin-top:20px;
-    margin-bottom:20px;
+    margin-bottom:10px;
 }
 
 h4 {
 
-    font-size: 15px;
+    font-size: 20pt;
     margin-bottom: 10px;
     margin-top: 40px;
     letter-spacing: unset;
     font-weight: normal;
 }
 
-h5 {
-    font-size: 18px;
-}
 
 hr {
     margin-top: 100px;
@@ -95,18 +85,51 @@ hr {
 }
     
 ul {
-    padding-left: 1.2em;
-    list-style-position: outside;
+    margin:0; 
+    margin-left: 25px; 
+    padding:0; 
+    color:#495055; 
+    font-size:16px; 
+    line-height:22px;
 }
 
-ul li {
-    font-size: 15px;
+li {
+    margin-left:27px !important;
+    mso-special-format: bullet;
+    font-family:  'Helvetica Neue', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18pt;
     line-height: 26px;
-    mso-line-height-rule:exactly;
-    font-weight: 350;    
-    color: rgb(80, 80, 80);
-    padding-left: 0.6em;
-    padding-bottom: 10px;
+    letter-spacing: 0.03em;
+    mso-line-height-rule: exactly;
+    font-weight: 300;
+    color: #505050;
+    margin-bottom: 20px;
+}
+.forDumbOutlooks {
+    margin-left: -25px !important;
 }
 
+@media only screen and (min-width: 600px) {
+    p{
+        font-size: 20pt  !important;
+    }
 
+    h1 {
+        font-size: 22pt  !important;
+    }
+
+    h2 {
+        font-size: 20pt  !important;
+    }
+
+    h3 {
+        font-size: 18pt  !important;
+    }
+    h4 {
+        font-size: 16pt  !important;
+    }
+    li {
+        font-size: 14pt  !important;
+    }
+    
+}
